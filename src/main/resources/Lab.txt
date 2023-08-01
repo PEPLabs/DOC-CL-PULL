@@ -11,12 +11,12 @@
 # by default pull the latest `ubuntu` image. Let's first have you pull the docker image `alpine` below, which is just a
 # different version of Linux.
 # ENTER YOUR COMMAND ON THE LINE BELOW, WITHOUT A HASH SYMBOL OR BLANK LINES
-docker pull alpine
+
 # Now that we have an `alpine` image, let's run that image as a container. In the `ubuntu` example, we would use the
 # command `docker run ubuntu` to start up a container. Let's next start the `alpine` container from the image you
 # pulled.
 # ENTER YOUR COMMAND BELOW, WITHOUT A HASH SYMBOL OR BLANK LINES
-docker run alpine
+
 # When running a container, we can also perform quite a bit of configuration - such as the name of the container,
 # opening ports for networking, setting environment variables, or designating volumes (external storage for the
 # docker container). We'll not worry about that for now.
